@@ -1,0 +1,6 @@
+{
+    "name": "Javascript",
+    "type": ["Procedural", "Structured", "Object-Oriented", "Concurrent", "Functional", "Event-Driven", "Compiled", "Interpreted"],
+    "website": "N/A",
+    "authors": "Brendan Eich"
+}

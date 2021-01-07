@@ -12,29 +12,7 @@
         "website": "N/A",
         "creators": ["Brendan Eich"],
         "garbage_collected": "Yes",
-        "hello_world": "\nvar i;\nvar fib = []; // Initialize array!\n        \nfib[0] = 0;\nfib[1] = 1;\nfor (i = 2; i <= 10; i++) {\n    // Next fibonacci number = previous + one before previous\n    // Translated to JavaScript:\n    fib[i] = fib[i - 2] + fib[i - 1];\n    console.log(fib[i]);\n}",
-        "keywords": [
-            "javascript",
-            "procedural",
-            "structured",
-            "object-oriented",
-            "functional",
-            "event-driven",
-            "compiled",
-            "interpreted",
-            "brendan eich",
-            "garbage_collected: yes",
-            "javascript",
-            "procedural",
-            "structured",
-            "object-oriented",
-            "functional",
-            "event-driven",
-            "compiled",
-            "interpreted",
-            "brendan eich",
-            "garbage_collected: yes"
-        ]
+        "hello_world": "\nvar i;\nvar fib = []; // Initialize array!\n        \nfib[0] = 0;\nfib[1] = 1;\nfor (i = 2; i <= 10; i++) {\n    // Next fibonacci number = previous + one before previous\n    // Translated to JavaScript:\n    fib[i] = fib[i - 2] + fib[i - 1];\n    console.log(fib[i]);\n}"
     },
     {
         "name": "Rust",
@@ -43,23 +21,7 @@
         "website": "https://www.rust-lang.org",
         "creators": ["Graydon Hoare"],
         "garbage_collected": "No",
-        "hello_world": "\nfn main() {\n    // Statements here are executed when the compiled binary is called\n\n    // Print text to the console\n    println!(\"Hello World!\");\n}",
-        "keywords": [
-            "rust",
-            "functional",
-            "imperative",
-            "structured",
-            "compiled",
-            "graydon hoare",
-            "garbage_collected: no",
-            "rust",
-            "functional",
-            "imperative",
-            "structured",
-            "compiled",
-            "graydon hoare",
-            "garbage_collected: no"
-        ]
+        "hello_world": "\nfn main() {\n    // Statements here are executed when the compiled binary is called\n\n    // Print text to the console\n    println!(\"Hello World!\");\n}"
     },
     {
         "name": "Elixir",
@@ -73,27 +35,7 @@
         "website": "https://elixir-lang.org",
         "creators": ["Jose Valim"],
         "garbage_collected": "Yes",
-        "hello_world": "\ndefmodule ModuleName do\n    def hello do\n        IO.puts \"Hello World\"\n    end\nend\n        ",
-        "keywords": [
-            "elixir",
-            "functional",
-            "concurrent",
-            "distributed",
-            "process-oriented",
-            "compiled",
-            "vm-based",
-            "jose valim",
-            "garbage_collected: yes",
-            "elixir",
-            "functional",
-            "concurrent",
-            "distributed",
-            "process-oriented",
-            "compiled",
-            "vm-based",
-            "jose valim",
-            "garbage_collected: yes"
-        ]
+        "hello_world": "\ndefmodule ModuleName do\n    def hello do\n        IO.puts \"Hello World\"\n    end\nend\n        "
     },
     {
         "name": "C++",
@@ -108,27 +50,7 @@
         "website": "https://www.isocpp.org",
         "creators": ["Bjarne Stroustrup"],
         "garbage_collected": "No",
-        "hello_world": "\n#include <iostream>\n\nint main() {\n    std::cout << \"Hello World!\";\n    return 0;\n}\n        ",
-        "keywords": [
-            "c++",
-            "procedural",
-            "functional",
-            "object-oriented",
-            "generic",
-            "modular",
-            "compiled",
-            "bjarne stroustrup",
-            "garbage_collected: no",
-            "c++",
-            "procedural",
-            "functional",
-            "object-oriented",
-            "generic",
-            "modular",
-            "compiled",
-            "bjarne stroustrup",
-            "garbage_collected: no"
-        ]
+        "hello_world": "\n#include <iostream>\n\nint main() {\n    std::cout << \"Hello World!\";\n    return 0;\n}\n        "
     },
     {
         "name": "Go",
@@ -142,29 +64,7 @@
         "website": "https://golang.org",
         "creators": ["Robert Griesemer", "Rob Pike", "Ken Thompson"],
         "garbage_collected": "Yes",
-        "hello_world": "\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"hello world\")\n}\n        ",
-        "keywords": [
-            "go",
-            "concurrent",
-            "functional",
-            "imperative",
-            "object-oriented",
-            "compiled",
-            "robert griesemer",
-            "rob pike",
-            "ken thompson",
-            "garbage_collected: yes",
-            "go",
-            "concurrent",
-            "functional",
-            "imperative",
-            "object-oriented",
-            "compiled",
-            "robert griesemer",
-            "rob pike",
-            "ken thompson",
-            "garbage_collected: yes"
-        ]
+        "hello_world": "\npackage main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"hello world\")\n}\n        "
     },
     {
         "name": "Java",
@@ -173,27 +73,7 @@
         "website": "https://www.oracle.com/java",
         "creators": ["James Gosling"],
         "garbage_collected": "Yes",
-        "hello_world": "\npublic class HelloWorldApp {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World!\"); // Prints the string to the console.\n    }\n}\n        ",
-        "keywords": [
-            "java",
-            "generic",
-            "object-oriented",
-            "imperative",
-            "reflective",
-            "compiled",
-            "vm-based",
-            "james gosling",
-            "garbage_collected: yes",
-            "java",
-            "generic",
-            "object-oriented",
-            "imperative",
-            "reflective",
-            "compiled",
-            "vm-based",
-            "james gosling",
-            "garbage_collected: yes"
-        ]
+        "hello_world": "\npublic class HelloWorldApp {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World!\"); // Prints the string to the console.\n    }\n}\n        "
     },
     {
         "name": "Python",
@@ -208,28 +88,6 @@
         "website": "https://www.python.org",
         "creators": ["Guido van Rossum"],
         "garbage_collected": "Yes",
-        "hello_world": "\n        print(\"Hello World\")\n        ",
-        "keywords": [
-            "python",
-            "functional",
-            "imperative",
-            "object-oriented",
-            "structured",
-            "reflective",
-            "interpreted",
-            "compiled",
-            "guido van rossum",
-            "garbage_collected: yes",
-            "python",
-            "functional",
-            "imperative",
-            "object-oriented",
-            "structured",
-            "reflective",
-            "interpreted",
-            "compiled",
-            "guido van rossum",
-            "garbage_collected: yes"
-        ]
+        "hello_world": "\n        print(\"Hello World\")\n        "
     }
 ]
